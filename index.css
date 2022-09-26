@@ -14,11 +14,14 @@ h1{
     /* max-width: 584px; */
 }
 .btn{
-    display: flex;
-    margin: auto;
-    width: 100px;
+    display:inline-flexbox;
+    width: 200px;
     height: 40px;
-    text-align: center;
+    
+    
+}
+#go{
+    margin-left:450px;
 }
 .w{
     display:flex;
