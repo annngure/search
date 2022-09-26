@@ -9,7 +9,41 @@
             <a href="index.html">Google Search</a>
         </div>
        
-        <h1>Advance Search</h1>
+        <h2>Advanced Search</h2>
+        <hr>
+        <form action="https://www.google.com/search">
+            <p>Find pages with...</p>
+            <div>
+                <div>
+                    <label>all these words:</label>
+                    <input  class ="input" type="text" name="as_q"> 
+                    <!-- as_q=>>all these words -->
+                </div>
+                <br>
+                <div>
+                    <label>this exact word or phrase:</label>
+                    <input  class ="input" type="text" name="as_epq">
+                    <!-- as_epq=>> exact word -->
+                </div>
+                <br>
+                <div>
+                    <label>any of these words:</label>
+                    <input  class ="input" type="text" name="as_oq">
+                    <!-- as_oq=>>any words -->
+                </div>
+                <br>
+                <div>
+                    <label>none of these words:</label>
+                    <input  class ="input" type="text" name="as_eq">
+                    <!-- as_eq=>>none -->
+                </div>
+            </div>
+        <br>
+        <br>
+        <div >
+            <input id="btn"  type="submit" value="Advance Search">
+        </div> 
+        </form>
         
     </body>
 </html>

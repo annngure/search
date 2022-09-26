@@ -1,6 +1,3 @@
-h1{
-    text-align: center;
-}
 .w{
     display:flex;
     height:48px;
@@ -10,3 +7,28 @@ h1{
     flex:auto;
     justify-content: flex-end;    
 }
+form{
+    display: block;
+    width:fit-content;
+}
+.input{
+    display:block;
+    /* height:48px; */
+    /* align-items:center; */
+    padding:4px;
+    margin-left: 90px;
+    float:right;
+    padding-left:100px;
+    padding-right: 100px;
+    /* flex:auto; */
+    /* justify-content: flex-end;     */
+}
+#btn{
+    background-color: blue;
+    color: white;
+    float: right;
+    min-width: 167px;
+    min-height: 41px;
+    padding: 10px;
+}
+
