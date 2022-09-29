@@ -1,6 +1,13 @@
 h1{
     text-align: center;
 }
+a{
+    color:black;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
 .input {
     display: flex;
     height: 44px;
@@ -11,13 +18,12 @@ h1{
     margin: auto;
     width: 400px;
     font-size:large;
-    /* max-width: 584px; */
 }
 .btn{
     display:inline-flexbox;
     width: 200px;
     height: 40px;
-    
+    border:none;
     
 }
 #go{

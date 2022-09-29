@@ -1,3 +1,11 @@
+.ad{
+    color:red;
+    font-size:x-large;
+    
+}
+p{
+    font-size:larger; 
+}
 .w{
     display:flex;
     height:48px;
